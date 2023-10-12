@@ -1,0 +1,52 @@
+// import { ztwitchClientId, ztwitchAccessToken, ztwitchChannelId } from "../../config.json";
+// import { ChatClient } from '@twurple/chat';
+// import { StaticAuthProvider } from "@twurple/auth";
+// import { ApiClient } from "@twurple/api";
+// import { EventSubWsListener } from "@twurple/eventsub-ws";
+// import { PubSubClient } from '@twurple/pubsub';
+
+// // authProvider
+// const authProvider = new StaticAuthProvider(ztwitchClientId, ztwitchAccessToken);
+
+// // connecting to chat
+// const chatClient = new ChatClient({ authProvider, channels: ['zaacklachevre']});
+// chatClient.connect();
+
+// // connected to chat event
+// chatClient.onConnect(() => {
+// 	console.log("rdy");
+// });
+
+
+// // message received in chat event
+// chatClient.onMessage(async (channel, user, text, msg ) => {
+// 	console.log(`channel: ${channel}\nuser: ${user}\ntext: ${text}`);
+// });
+
+// /* instancing the ApiClient
+// 	instancing the listener
+// 	starting the listener
+// */
+// const apiClient = new ApiClient({ authProvider });
+// const listener = new EventSubWsListener({ apiClient });
+// listener.start();
+
+// const onGoLiveSub = listener.onStreamOnline(ztwitchChannelId, e => {
+// 	console.log(`${e.broadcasterDisplayName} est en live !`);
+// })
+
+// const onGoOfflineSub = listener.onStreamOffline(ztwitchChannelId, e => {
+// 	console.log(`${e.broadcasterDisplayName} est hors ligne !`);
+// })
+
+// // PubSub
+// const pubSubClient = new PubSubClient({ authProvider });
+// const handler = pubSubClient.onRedemption(ztwitchChannelId, (message) => {
+// 	if (message.rewardId == 'e3b3d2f0-b4ca-4334-a2bf-88b18cfcb427') {
+// 		console.log("oe");
+// 		console.log(message.userDisplayName);
+		
+		
+// 	} else console.log("no");
+	
+// })

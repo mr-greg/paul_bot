@@ -1,0 +1,6 @@
+dist
+node_modules
+config.json
+giveawayDb.json
+src/twitch/tokens.89168535.json
+src/twitch/tokens.247367760.json

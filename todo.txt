@@ -1,0 +1,47 @@
+ production-ready condition :
+   ✅ - https://twurple.js.org/docs/auth/providers/refreshing.html (ton token actuel meurt au bout de 60 jours)
+    - changer l'id du salon dans ready.ts pour les annonces (+ ajouter @everyone)
+    - faire des tests voir si ça fonctionne, car l'app sur la chaîne zaacklachevre est setup sur localhost
+    - clear fakedata reset database
+    - voir ligne 43 zChatClient.ts
+
+todo :
+   ✅ - commande pour recevoir la database en mp (discord, zaack only)
+    ✅- event ban twitch, retire l'user de la database aussi
+    - faire un salon discord pour expliquer
+    ✅ - faire commande !giveaway pour expliquer twitch (both channels)
+
+idées :
+    - participation goal / cagnotte point de chaine ?
+        -> augmenter la cagnotte du mois prochain
+
+
+----------------
+
+events serveurs minecraft
+    -> si pas le temps pas de soucis, taff sur ce qui t'intéresse
+        -> valoriser son travail, chaque event sera sur article du site
+            -> acquérir de l'expérience
+
+tory -> pour remplacer electron
+    -> backend Rust
+    -> outils natifs aux OS
+
+framework front : svelt à checker (dérivé de vue)
+    -> svelt kit pour fullstack
+
+
+----------------
+
+Commencer à réfléchir sur des bots discord pour des events sympa ? Event noël ? 
+    -> gens qui se font chier en repas de famille
+        -> 22/23/24 décembre
+
+Dev feature
+
+
+
+headless UI ? c'quoi
+
+indeed, monster, welcometothejungle
+cabinet recrutement 
